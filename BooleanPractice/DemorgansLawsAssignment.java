@@ -1,8 +1,8 @@
-//For tasks 1 and 2, answer whether or not it would print "option 1" or "option 2"
+//For tasks 1 and 2, answer for what values of x and y it would print "option 1" or "option 2"
 
 //TASK 1:
 if (!(x < 3 || y > 2)) System.out.println("option 1");
-else System.out.println("option 1");
+else System.out.println("option 2");
 
 //TASK 2:
 if (!(x < 3 && y > 2)) System.out.println("option 1");
