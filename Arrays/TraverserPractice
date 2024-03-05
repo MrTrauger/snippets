@@ -1,0 +1,46 @@
+/*
+  For each method, answer the following tasks:
+
+  1. What is passed to the method?
+  2. What does the method return?
+  3. What variable is used to traverse the array? 
+  4. On first glance, what does the method look like it is supposed to do? 
+
+  5. Now, go through each line and exlplain what each line (or each part of the method) does. 
+  6. What is the purpose of the method?
+
+public static double[] traverserOne( int[] arr )
+	{
+		double[] newArr = new double[arr.length];
+		
+		for (int i = 0; i < arr.length; i++)
+		{
+			newArr[i] = ( (double) (arr[i]) );
+		}
+		
+		return newArr;
+	}
+	
+	public static int[] traverserTwo( int[] arr , int n )
+	{
+		for (int index = 0; index < arr.length; index++)
+		{
+			arr[index] = ( arr[index] + n );
+		}
+		
+		return arr;
+	}
+	
+	public static int traverserThree( double[] arr )
+	{
+		int c = 0;
+		
+		for (int j = 0; j <= arr.length-1; j++)
+		{
+			if ( arr[j] == 4.0 )
+			{
+				c++;
+			}
+		}
+		return c;
+	}
