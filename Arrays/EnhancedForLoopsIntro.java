@@ -19,8 +19,8 @@
 		int sum = 0;
 		
 		//make our 'for each loop'
-		for (int currentElementCopy : grades) {
-		  sum += currentElementCopy;
+		for (int currentElement : grades) {
+		  sum += currentElement;
 		}
 		
 		System.out.println(sum);
@@ -36,8 +36,8 @@
 		double avg = 0;
 		
 		//make our 'for each loop'
-		for (double currentElementCopy : scores) {
-		  avg += currentElementCopy;
+		for (double i : scores) {
+		  avg += i;
 		}
 		
 		//what's this do? huh...
