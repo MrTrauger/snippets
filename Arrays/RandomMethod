@@ -1,0 +1,12 @@
+	private static void makeRandom(int[] bigNums) {
+		
+		int len = bigNums.length;
+		
+		for (int i = 0; i < len; i++)
+		{
+			int randomNumber = (int) ((Math.random() * 1000) + 1);
+			bigNums[i] = randomNumber;
+			
+		}
+		
+	}
