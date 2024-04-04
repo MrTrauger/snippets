@@ -20,13 +20,13 @@ void sort(int arr[])
 
             //j traverses the array, starting after the cutoff point, and stops when it gets to the end
             for (int j = cutOff+1; j < len; j++) 
-
+            {
                 //if the traverser ever hits an element that is less than the current min we found, it means we found a new min!
                 if (arr[j] < arr[minimum_index]) 
 
                     //we mark this spot as the new min location. 
                     minimum_index = j; 
-  
+            }
             //swap the minimum element with the cutoff point. if the cutoff is the min, then this swap really does nothing
             int temp = arr[minimum_index]; 
             arr[minimum_index] = arr[cutOff]; 
