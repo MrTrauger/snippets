@@ -22,7 +22,7 @@ for (int k = 0; k < cols; k++)
 
 /****** Task 3: What would the following code do? ****/
 		
-for (int i = 0; i < rows; j += 2)
+for (int i = 0; i < rows; i += 2)
 {
   
   for (int j = 0; j < cols; j++)
