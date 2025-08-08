@@ -15,7 +15,7 @@ System.Out.Print("Hello World");
 System.out.print("Hello World")
 
 //Task 5: Print out "Hello World"
-System.out.print("Hello Wrold")
+System.out.print("Hello Wrold");
 
 //Task 6: Print out "Hello World twice, one on top of the other"
 System.out.print("Hello World");
