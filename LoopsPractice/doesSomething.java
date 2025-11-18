@@ -14,7 +14,7 @@
 		 * 
 		 * */
 
-		int l = str.length();
+		int l = this.length();
 		
 		/*
 		 * Why might executing the loop below result in a syntax error?
