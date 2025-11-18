@@ -6,8 +6,7 @@
 	public int doesSomething(char c)
 	{
 		/*
-		 * This line below works even though str was not instantiated in the method.
-		 * What conclusion can you draw from this fact?
+		 * This line does what?
 		 * 
 		 * 
 		 * 
